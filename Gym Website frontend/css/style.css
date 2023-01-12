@@ -1,0 +1,144 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: rgb(250, 253, 255);
+
+    background-blend-mode: darken;
+    background: rgba(0, 0, 0, 0.68);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: animate 16s ease-in-out infinite;
+    background-size: cover;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        background-image: url('../img/img1.jpg');
+    }
+
+    25% {
+        background-image: url('../img/img2.jpg');
+    }
+
+    50% {
+        background-image: url('../img/img3.jpg');
+    }
+
+    75% {
+        background-image: url('../img/img4.jpg');
+    }
+
+
+}
+
+
+.leftHead {
+    position: absolute;
+    left: 34px;
+    top: 16px;
+    display: inline-block;
+    /* border: 2px solid red; */
+
+}
+
+.leftHead img {
+    width: 152px;
+    float: left;
+   
+}
+
+
+
+.leftHead div {
+    font-size: 32px;
+    text-align: center;
+    float: right;
+    margin-top: 34px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.MidHead {
+    display: block;
+    width: 50%;
+    margin: 23px auto;
+    border: 2px solid red;
+    border-radius: 15px;
+}
+
+.righthead {
+    position: absolute;
+    right: 50px;
+    top: 47px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+.btn {
+    width: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 18px;
+    background-color: rgba(207, 52, 52, 0);
+    color: wheat;
+    border: 1px solid white;
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+.btn:hover {
+    color: #eb250b;
+    border-color: #eb250b;
+    
+    cursor:pointer;
+}
+.navbar li {
+
+    display: inline-block;
+    padding-left: 55px;
+
+}
+
+.navbar li a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.navbar li a:hover,.navbar li a.active {
+    color: #eb250b;
+    font-size: 20px;
+}
+.container{
+
+    border: 2px solid white;
+    margin: 125px 194px;
+    padding: 26px 59px;
+    width: 35%;
+    border-radius: 10px;
+}
+.form-group input{
+    display: block;
+    text-align: center;
+    padding: 11px;
+    margin: 14px auto;
+    width: 85%;
+    background: rgba(0, 0, 0, 0.541);
+    border: none;
+    color: aliceblue;
+    font-size: medium;
+    border-radius: 4px;
+
+}
+#Btn{
+    display: block;
+    width: 90%;
+    margin: 8px auto 10px;
+}
+.checkbox{
+    text-align: center;
+    width: 90%;
+    line-height: 40px;
+    color:rgb(255, 245, 245);
+}
+.container h1{
+    text-align: center;
+}
